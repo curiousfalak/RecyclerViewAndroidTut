@@ -34,6 +34,11 @@ android {
         jvmTarget = "1.8"
     }
 }
+buildscript {
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.2.0") // Downgrade to 8.2.0
+    }
+}
 
 dependencies {
 
